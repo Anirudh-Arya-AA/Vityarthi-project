@@ -61,3 +61,15 @@ Test Error Messages: Type an invalid difficulty choice (e.g., 9) and verify the 
 Test Failures: Attempt to guess a movie wrong three times. Verify the round ends with the message no tries left and streak resets to 0.
 
 Exit Test: When asked again? (y/n):, type n. Verify the FINAL STATS screen appears before the program exits with ok done.
+
+<img width="866" height="507" alt="Screenshot 2025-11-24 000502" src="https://github.com/user-attachments/assets/8e0d103f-bfec-4000-962f-e93022abed08" />
+<img width="867" height="607" alt="Screenshot 2025-11-24 000526" src="https://github.com/user-attachments/assets/203b5bae-4111-4c54-b85e-42af4f86390b" />
+<img width="859" height="305" alt="Screenshot 2025-11-24 000540" src="https://github.com/user-attachments/assets/7772d767-fb9c-43d5-8afe-0f03b60a2224" />
+<img width="878" height="425" alt="Screenshot 2025-11-24 000551" src="https://github.com/user-attachments/assets/6b322280-d92b-491b-b9ab-3a05bd82ae3b" />
+<img width="855" height="610" alt="Screenshot 2025-11-24 000607" src="https://github.com/user-attachments/assets/682c3719-b517-46e6-8720-7e7372b0db42" />
+
+
+
+
+
+
