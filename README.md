@@ -1,4 +1,6 @@
 # Vityarthi-project
+# Anirudh Arya
+#25BAI11192
 Movie Guessing Game CLI
 Overview of the Project
 This project is a simple, Command-Line Interface (CLI) game designed to test a player's knowledge of movie titles. The player inputs a list of movies, chooses a difficulty level, and then attempts to guess the titles after some letters have been obscured by a placeholder character. The game tracks scores, tracks streaks, and includes a point-deducting hint system.
