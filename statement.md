@@ -1,5 +1,26 @@
-Movie Guessing Game CLI🌟:  Project Overview & Problem StatementThis project is a Command-Line Interface (CLI) game designed to test and improve movie trivia knowledge. It addresses the need for a simple, accessible, and highly customizable game platform that requires no external dependencies or complex installation.The core purpose is dual: to provide entertainment for casual users and to serve as a practical demonstration of fundamental Object-Oriented Programming (OOP) principles in Python, showcasing clear state management (score, streaks) and algorithmic logic (obfuscation and hinting).
-✨ Features: The application provides a variety of user-defined settings and mechanics:Custom Knowledge Base: The game begins by allowing the user to input a dynamic list of movies (the "Knowledge Base") for the session.Dynamic Difficulty: Players select from Easy, Medium, or Hard settings. This choice determines the percentage of letters hidden and applies a score multiplier for points earned.Point-Deducting Hint System: Players can type HINT during gameplay to reveal one hidden letter, deducting 5 points from their current score.Score and Streak Tracking: The game accurately tracks the total score, rounds played, and maintains a counter for the player's longest consecutive correct guess streak.Case-Insensitive Input: Guesses are normalized to ensure capitalization and minor spacing errors do not prevent a correct answer.
-🛠️ Getting Started :  This project is built using standard Python libraries and is immediately runnable.Technologies UsedLanguage: Python 3.xLibraries: random, time (Standard Library)Installation & Run InstructionsSave the Code: Copy the entire Python script and save it locally as movie_game.py.Execute the Script: Open your terminal or command prompt, navigate to the directory containing the file, and run:Bashpython movie_game.py
-🗺️ Project Scope & Boundaries: The architecture is strictly Object-Oriented (class MovieGame) to manage session state. The project scope is limited to console operations.ScopeDescriptionIN SCOPECLI, In-Memory Data Storage (Session-only), Basic Input Validation.OUT OF SCOPEGraphical User Interfaces (GUIs), External Databases, Persistent Score Saving, Multi-User Functionality.
-🧪 Testing Instructions: Follow these steps to quickly verify core gameplay and feature functionality:Start: Run python movie_game.py.Setup: Input a list of 3-4 movies (e.g., Jaws, Aliens, Predator).Difficulty Test: Select 3 (Hard).Hint Test: When the first mystery title appears, type HINT. Verify 5 points are deducted, and a letter is revealed.Score Test: Guess the next movie correctly. Verify the score increases significantly due to the Hard difficulty multiplier.Exit Test: When prompted again? (y/n):, type n. Verify the FINAL STATS screen appears and the script terminates.
+Movie Guessing Game CLI: Project Statement
+This document outlines the core aspects of the Movie Guessing Game CLI project, a text-based application designed to test movie trivia knowledge.
+
+🎯 Problem Statement
+There is a need for a simple, accessible, and highly customizable movie trivia game. The solution must be a Command-Line Interface (CLI) application that requires no external dependencies or complex installation, focusing on providing entertainment while simultaneously serving as a practical, clear demonstration of fundamental Object-Oriented Programming (OOP) principles in Python.
+
+🗺️ Scope of the Project
+Category	Description
+IN SCOPE	CLI-based gameplay, In-Memory Data Storage (session-only), Basic Input Validation, OOP architecture (e.g., MovieGame class), and implementation of core features (difficulty, hint system, score/streak tracking).
+OUT OF SCOPE	Graphical User Interfaces (GUIs), External Databases, Persistent Score Saving (scores are lost upon exit), and Multi-User Functionality.
+
+👤 Target Users
+Casual Users/Movie Enthusiasts: Individuals seeking a quick, accessible, and customizable game to test their movie trivia knowledge for entertainment.
+
+Students/Beginner Python Developers: Users interested in examining a practical, well-scoped project that clearly demonstrates core Object-Oriented Programming (OOP) concepts, state management (score, streaks), and algorithmic logic (obfuscation, hinting) in a real-world application.
+
+✨ High-Level Features
+Custom Knowledge Base: Allows the user to input a dynamic list of movies at the start of the session, making the content fresh and user-defined.
+
+Dynamic Difficulty: Players can select from Easy, Medium, or Hard settings, which determines the percentage of letters hidden in the movie title and applies a score multiplier.
+
+Point-Deducting Hint System: Users can type HINT during gameplay to reveal one hidden letter, resulting in a 5-point deduction from the current score.
+
+Score and Streak Tracking: The game tracks the total score, rounds played, and maintains a counter for the player's longest consecutive correct guess streak.
+
+Case-Insensitive Input: Guesses are normalized to ensure correct answers are accepted regardless of capitalization or minor spacing errors.
