@@ -1,4 +1,5 @@
-Movie Guessing Game CLI: Project Statement
+# Movie Guessing Game CLI : 
+Project Statement
 This document outlines the core aspects of the Movie Guessing Game CLI project, a text-based application designed to test movie trivia knowledge.
 
 # 🎯 Problem Statement:
